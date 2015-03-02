@@ -24,10 +24,9 @@ angular
         controller: 'MainCtrl'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'views/about.html'
       })
-            .when('/message', {
+      .when('/message', {
         templateUrl: 'views/message.html',
         controller: 'AboutCtrl'
       })
